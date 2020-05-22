@@ -41,7 +41,7 @@ h3 {
 .tag {
     text-align: center;
     color: black;
-    background-color: rgb(39, 190, 201);
+    background-color: rgb(63, 222, 233);
     border: none;
     margin: 2px;
     border-radius: 16px;
@@ -53,32 +53,41 @@ img {
 
 .bottom-nav {
     display: flex;  
-    background-color: lavender;
-    height: 200px;
-    width: 800px;
-    line-height: 150pt;
+    background-color: rgb(255, 255, 255);
+    line-height: 250pt;
+    height: 260pt;
+    width: 1100pt;
 }
 
 .button {
     border-style: solid ;
-    border-width: 2px;
+    border-width: 0px;
     flex-grow: 1 ;
     text-align: center;
     vertical-align: middle;
-    font-size: 24pt;
+    font-size: 38pt;
     font-family: 'Oswald', sans-serif;
-}
-
-.donate {
-    background-image: 
-    url("starter_files/images/donate.jpg");
-    background-size: cover;
-    background-color: rgba(200, 0, 200, 200);
-    /*filter 
-    background blend mode*/
-    
 }
 
 .button > a {
     text-decoration: none;
+    color: white;
+}
+
+.donate {
+    background-image: linear-gradient(rgba(43, 29, 240, 0.753), rgba(87, 33, 236, 0.5)), url("starter_files/images/donate.jpg");
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.volunteer {
+    background-image: linear-gradient(rgba(43, 29, 240, 0.753), rgba(87, 33, 236, 0.5)), url("starter_files/images/volunteer.jpg");
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.location {
+    background-image: linear-gradient(rgba(43, 29, 240, 0.753), rgba(87, 33, 236, 0.5)), url("starter_files/images/location.png");
+    background-size: cover;
+    opacity: 0.5;
 }
