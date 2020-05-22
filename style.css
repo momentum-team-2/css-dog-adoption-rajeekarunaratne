@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(0, 70, 128);
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(0, 70, 128);
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding: 15px 50px
+}
+
+.header {
+    margin-left: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    width: 92%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.flex-container > div.dog {
+    width: 425px;
+    margin: 5px;
+    line-height: 0;
+    background-color: white;
+    align-items: center;
+}
+
+.tag {
+    text-align: center;
+    color: black;
+    background-color: rgb(39, 190, 201);
+    border: none;
+    margin: 2px;
+    border-radius: 16px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.bottom-nav {
+    display: flex;  
+    background-color: lavender;
+    height: 200px;
+    width: 800px;
+    line-height: 150pt;
+}
+
+.button {
+    border-style: solid ;
+    border-width: 2px;
+    flex-grow: 1 ;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24pt;
+    font-family: 'Oswald', sans-serif;
+}
+
+.donate {
+    background-image: 
+    url("starter_files/images/donate.jpg");
+    background-size: cover;
+    background-color: rgba(200, 0, 200, 200);
+    /*filter 
+    background blend mode*/
+    
+}
+
+.button > a {
+    text-decoration: none;
+}
